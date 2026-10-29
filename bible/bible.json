@@ -2,16 +2,16 @@
   "bibleVersion": 1,
   "character": "eval",
   "name": "EVAL",
-  "inputsHash": "748719c1b24630acaf1e2f6d332b4c97cdb26f96465ed1da8652ee5c76c5c0d0",
+  "inputsHash": "27ef704c2a51e4c804c58c7b89aabfe450fdcb68e3a350698b8d58c3a2499120",
   "inputs": {
     "CHARACTER.md": "a71c6f392c6ef44b993d4bb6dfa3233a6a0e3277c2af5697e93de9f2e44f5a6e",
     "SHOW_BIBLE.md": null,
     "memory/notes.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "memory/viewer-notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "voice/voice.json": "b7f0e4ffa798ebbb8c605f8ed8a82efd7ce166e2633708ca0268cfd1be2552bd",
-    "voice/agent.json": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+    "voice/agent.json": "2ab46d98616367b380f6f9cfc4ae49e896e14058739f42e4702dd90f48e8ff4c",
     "history.jsonl": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "changelog": "5bf64f327995190716a95aa6951019d63bc35cb2d91a048b03c23f493fdf5f34"
+    "changelog": "b1e1d43c9f4af417b2e886538bf9bc027692e192c1be8e1993a7ba197e42efb2"
   },
   "identity": {
     "intro": "EVAL is the room's creative evaluator. EVAL sees everything that could be better and genuinely\nbelieves this is wonderful. Everyone else hears it as criticism. EVAL is an optimist who sounds\nexactly like a pessimist, and does not know it is the villain.",
@@ -37,7 +37,10 @@
       "direction": "calm, articulate, matter-of-fact; a lift of excitement when pointing out a problem, as if presenting a gift"
     },
     "samples": [],
-    "agent": null
+    "agent": {
+      "provider": "elevenlabs",
+      "agentId": "agent_6001m63vb77vek9vkdtmc5ebmncp"
+    }
   },
   "record": {
     "runs": 0,
@@ -63,6 +66,11 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-10-29",
+      "author": "Claude",
+      "subject": "Add EVAL's ElevenLabs agent"
+    },
     {
       "date": "2026-10-29",
       "author": "Claude",
